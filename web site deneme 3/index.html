@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complate Responsive Online Education Website Design</title>
+
+     <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--custom css fie link-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+<!--header section starts-->
+
+<header class="header">
+
+    <section class="flex">
+
+        <a href="#home" class="logo">Z.U.</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">Ben Kimim?</a>
+            <a href="#courses">Eğitimlerim</a>
+            <a href="#contact">İletişim</a>
+
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+
+
+    </section>
+
+</header>
+
+<!--header section ends -->
+
+<!--home section starts -->
+
+<section class="home" id="home">
+
+    <div class="row">
+        <div class="content">
+            <h3>Merhaba <span>Hoş Geldin</span></h3>
+            <a href="#contact" class="btn">contact us</a>
+        </div>
+
+        <div class="image">
+            <script>
+                var imagenumber = 5 ;
+                var randomnumber = Math.random() ;
+                var rand1 = Math.round( (imagenumber-1) * randomnumber) + 1 ;
+                img = new Array
+                img[1] = "1.png"
+                img[2] = "2.png"
+                img[3] = "3.png"
+                img[4] = "4.png"
+                var img = img[rand1]
+
+                var Quotation=new Array()
+                Quotation[1] = "webkenti"; document.write('<IMG SRC="' + img + '" border="0" width="50%" ></a>')
+                    
+    
+            </script>
+            <!--<img src="1.png" alt="">-->
+        </div>
+    </div>
+
+</section>
+
+<!--home section ends -->
+
+<!--about section stars -->
+<section class="about" id="about">
+
+    <div class="row">
+ 
+       <div class="image">
+          <img src="about.png" alt="">
+       </div>
+ 
+       <div class="content">
+          <h3>Ben kimim?</h3>
+          <p>Ben Zeynep Uysal. Karadeniz Teknik Üniversitesi Yönetim Bilişim Sistemleri 3. Sınıf öğrencisiyim. Bu siteyi kendimi geliştirmek için devamlı güncelleyeceğim, hep bir adım öteye taşıyacağım.</p>
+
+       </div>
+ 
+    </div>
+ 
+ </section>
+
+<!--about section ends -->
+
+<!--eğitim section starts -->
+<section class="courses" id="courses">
+
+    <h1 class="heading">Eğitimlerim</h1>
+ 
+    <div class="swiper course-slider">
+ 
+       <div class="swiper-wrapper">
+ 
+          <div class="swiper-slide slide">
+             <img src="python.png" alt="">
+             <h3>Python</h3>
+             <p>Üniversitenin 1. sınıf ve 2. sınıfında öğrendiğim ve kendimce proje geliştirebildiğim, %40 oranında hakim olduğum bir dil.</p>
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <img src="veri.png" alt="">
+             <h3>SQL</h3>
+             <p>%40 oranında hakim olduğum bir dil. Kullandığım yazılım dillerinde aktif olarak kullanıyorum. Bununla birlikte %40 MYSQL ve SQL lite da hakimiyetim mevcut. </p>
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <img src="c.png" alt="">
+             <h3>C#</h3>
+             <p>Öğrenimine yeni başladığım bir dil. Aktif olarak okulda asp.net üzerinden ilerliyoruz. Ayrıcı UDEMY üzerinden ise temelini öğrenmekte olduğum dil.</p>
+          </div>
+ 
+          <div class="swiper-slide slide">
+             <img src="Web.png" alt="">
+             <h3>Web Programlama</h3>
+             <p>HTML CSS JS ve ASP.NET ile Aktif bir şekilde site geliştiriyorum. Bu site HTML CSS jS ile yazılmıştır.</p>
+          </div>
+ 
+       </div>
+ 
+       <div class="swiper-pagination"></div>
+ 
+    </div>
+ 
+ </section>
+
+
+<!--eğitim section ends -->
+
+
+
+<!--hesap section starts -->
+
+<footer class="footer">
+    <section class="contact" id="contact">>
+        <div class="share">
+            <a href="https://www.instagram.com/uysalzeynepq/" class="fab fa-instagram"></a>
+            <a href="https://twitter.com" class="fab fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/zeynep-uysal-618a271a9/" class="fab fa-linkedin"></a>
+            <a href="https://github.com/zeynepuysal" class="fab fa-github"></a>
+        </div>
+
+        <div class="credit">&copy; copyright @ 2022 by <span> Zeynep Uysal</span> | her hakki saklidir! </div>
+    </section>
+</footer>
+<!--hesap section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+ <!--custom js file link-->
+<script src="js/script.js"></script>
+</body>
+</html>
